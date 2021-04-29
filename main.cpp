@@ -157,6 +157,7 @@ void SetServosSafe()
     gpioServo(servo_map.at(CLAW_TILT), 1500);
     time_sleep(0.2);
     gpioServo(servo_map.at(CLAW_GRAB), 1500);
+    time_sleep(0.2);
 }
 
 
